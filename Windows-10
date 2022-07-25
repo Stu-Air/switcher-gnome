@@ -1,0 +1,20 @@
+Dash to Panel
+
+
+dash to panel
+bottom 
+48 Size
+100 Length
+Show applications buttom - false
+
+App Icon Margin - 0
+App padding - 4 
+Running Indicator Postion - bottom
+Running Indicator style (Focused) - Metro
+Running Indicator style (UnFocused) - Dashes
+
+Show favorites applications - True 
+Show favorites on second screen - True
+Show Running applications  - True
+show windows Preview on hover - True
+
