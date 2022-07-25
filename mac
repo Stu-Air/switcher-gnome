@@ -1,0 +1,56 @@
+# Extensions need for scripts to work 
+
+Desktop Icons 
+Blur my shell 
+Top panel icons 
+Pop Os Tilling 
+arc menu 
+Impatience
+Dash to Dock/Cosmic
+Dash to Panel
+
+
+#BELOW FOR REF# 
+
+#DisableExtension
+    gsettings set org.gnome.shell disabled-extensions "['ubuntu-dock@ubuntu.com','desktop-icons@csoriano']"
+
+#EnableExtension
+    gsettings set org.gnome.shell enabled-extensions "['dash-to-dock@micxgx.gmail.com', 'ding@rastersoft.com', 'impatience@gfxmonk.net', 'appindicatorsupport@rgcjonas.gmail.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'blur-my-shell@aunetx', 'gnome-shell-screenshot@ttll.de']"
+
+#FavoriteApps
+    gsettings set org.gnome.shell favorite-apps "['google-chrome.desktop', 'chromium.desktop','thunderbird.desktop','spotify.desktop','chrome-emefpkhgihlhfddcjfghpndaeliajgjj-Default.desktop','codium.desktop','chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop','signal-desktop.desktop','minecraft-launcher.desktop']"
+
+#WindowButtons
+    gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
+
+
+#BlurSettings
+    gsettings set org.gnome.shell.extensions.blur-my-shell blur-dash false
+    gsettings set org.gnome.shell.extensions.blur-my-shell blur-panel false
+    gsettings set org.gnome.shell.extensions.blur-my-shell dash-opacity '12'
+    gsettings set org.gnome.shell.extensions.blur-my-shell brightness '0.4'
+
+#DockSettings
+    gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 32
+    gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
+    gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
+    gsettings set org.gnome.shell.extensions.dash-to-dock intellihide true
+    gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+    gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
+    gsettings set org.gnome.shell.extensions.dash-to-dock show-trash false
+    gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+    gsettings set org.gnome.shell.extensions.dash-to-dock force-straight-corner false
+    gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-shrink true
+
+#IconSettings
+    gsettings set org.gnome.shell.extensions.ding show-home false
+    gsettings set org.gnome.shell.extensions.ding show-trash false
+    gsettings set org.gnome.shell.extensions.ding icon-size 'small'
+    gsettings set org.gnome.shell.extensions.ding show-volumes false
+    gsettings set org.gnome.shell.extensions.ding show-drop-place false
+    gsettings set org.gnome.shell.extensions.ding add-volumes-opposite false
+
+#ImpatienceSettings
+    gsettings set org.gnome.shell.extensions.net.gfxmonk.impatience speed-factor '0.50'
+
